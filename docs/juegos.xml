@@ -1,0 +1,142 @@
+<juegos>
+  <juego>
+    <codigo>TW3</codigo>
+    <titulo>The Witcher 3: Wild Hunt</titulo>
+    <precio>39.99</precio>
+    <fecha_lanzamiento>2015-05-19</fecha_lanzamiento>
+    <categoria_id>1</categoria_id>
+  </juego>
+  <juego>
+    <codigo>ELD</codigo>
+    <titulo>Elden Ring</titulo>
+    <precio>59.99</precio>
+    <fecha_lanzamiento>2022-02-25</fecha_lanzamiento>
+    <categoria_id>1</categoria_id>
+  </juego>
+  <juego>
+    <codigo>CPK</codigo>
+    <titulo>Cyberpunk 2077</titulo>
+    <precio>49.99</precio>
+    <fecha_lanzamiento>2020-12-10</fecha_lanzamiento>
+    <categoria_id>1</categoria_id>
+  </juego>
+  <juego>
+    <codigo>BG3</codigo>
+    <titulo>Baldur's Gate 3</titulo>
+    <precio>59.99</precio>
+    <fecha_lanzamiento>2023-08-03</fecha_lanzamiento>
+    <categoria_id>1</categoria_id>
+  </juego>
+  <juego>
+    <codigo>SKR</codigo>
+    <titulo>The Elder Scrolls V: Skyrim</titulo>
+    <precio>39.99</precio>
+    <fecha_lanzamiento>2011-11-11</fecha_lanzamiento>
+    <categoria_id>1</categoria_id>
+  </juego>
+  <juego>
+    <codigo>SC2</codigo>
+    <titulo>StarCraft II: Wings of Liberty</titulo>
+    <precio>19.99</precio>
+    <fecha_lanzamiento>2010-07-27</fecha_lanzamiento>
+    <categoria_id>2</categoria_id>
+  </juego>
+  <juego>
+    <codigo>AOE</codigo>
+    <titulo>Age of Empires II: Definitive Edition</titulo>
+    <precio>19.99</precio>
+    <fecha_lanzamiento>2019-11-14</fecha_lanzamiento>
+    <categoria_id>2</categoria_id>
+  </juego>
+  <juego>
+    <codigo>CIV</codigo>
+    <titulo>Sid Meier's Civilization VI</titulo>
+    <precio>59.99</precio>
+    <fecha_lanzamiento>2016-10-21</fecha_lanzamiento>
+    <categoria_id>2</categoria_id>
+  </juego>
+  <juego>
+    <codigo>XCO</codigo>
+    <titulo>XCOM 2</titulo>
+    <precio>49.99</precio>
+    <fecha_lanzamiento>2016-02-05</fecha_lanzamiento>
+    <categoria_id>2</categoria_id>
+  </juego>
+  <juego>
+    <codigo>STH</codigo>
+    <titulo>Stellaris</titulo>
+    <precio>39.99</precio>
+    <fecha_lanzamiento>2016-05-09</fecha_lanzamiento>
+    <categoria_id>2</categoria_id>
+  </juego>
+  <juego>
+    <codigo>RDR</codigo>
+    <titulo>Red Dead Redemption 2</titulo>
+    <precio>59.99</precio>
+    <fecha_lanzamiento>2018-10-26</fecha_lanzamiento>
+    <categoria_id>3</categoria_id>
+  </juego>
+  <juego>
+    <codigo>GTA</codigo>
+    <titulo>Grand Theft Auto V</titulo>
+    <precio>29.99</precio>
+    <fecha_lanzamiento>2013-09-17</fecha_lanzamiento>
+    <categoria_id>3</categoria_id>
+  </juego>
+  <juego>
+    <codigo>GOW</codigo>
+    <titulo>God of War</titulo>
+    <precio>49.99</precio>
+    <fecha_lanzamiento>2018-04-20</fecha_lanzamiento>
+    <categoria_id>3</categoria_id>
+  </juego>
+  <juego>
+    <codigo>TLU</codigo>
+    <titulo>The Last of Us Part I</titulo>
+    <precio>69.99</precio>
+    <fecha_lanzamiento>2022-09-02</fecha_lanzamiento>
+    <categoria_id>3</categoria_id>
+  </juego>
+  <juego>
+    <codigo>HZD</codigo>
+    <titulo>Horizon Zero Dawn</titulo>
+    <precio>49.99</precio>
+    <fecha_lanzamiento>2017-02-28</fecha_lanzamiento>
+    <categoria_id>3</categoria_id>
+  </juego>
+  <juego>
+    <codigo>ZLD</codigo>
+    <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+    <precio>59.99</precio>
+    <fecha_lanzamiento>2017-03-03</fecha_lanzamiento>
+    <categoria_id>4</categoria_id>
+  </juego>
+  <juego>
+    <codigo>SMO</codigo>
+    <titulo>Super Mario Odyssey</titulo>
+    <precio>59.99</precio>
+    <fecha_lanzamiento>2017-10-27</fecha_lanzamiento>
+    <categoria_id>4</categoria_id>
+  </juego>
+  <juego>
+    <codigo>HKN</codigo>
+    <titulo>Hollow Knight</titulo>
+    <precio>14.99</precio>
+    <fecha_lanzamiento>2017-02-24</fecha_lanzamiento>
+    <categoria_id>4</categoria_id>
+  </juego>
+  <juego>
+    <codigo>ORI</codigo>
+    <titulo>Ori and the Will of the Wisps</titulo>
+    <precio>29.99</precio>
+    <fecha_lanzamiento>2020-03-11</fecha_lanzamiento>
+    <categoria_id>4</categoria_id>
+  </juego>
+  <juego>
+    <codigo>TRD</codigo>
+    <titulo>Tomb Raider</titulo>
+    <precio>19.99</precio>
+    <fecha_lanzamiento>2013-03-05</fecha_lanzamiento>
+    <categoria_id>4</categoria_id>
+  </juego>
+</juegos>
