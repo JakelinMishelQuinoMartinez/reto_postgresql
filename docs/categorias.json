@@ -1,0 +1,22 @@
+[
+  {
+    "codigo": "RPG",
+    "nombre": "Rol y RPG",
+    "descripcion": "Juegos enfocados en la narrativa, desarrollo de personajes y mundos abiertos."
+  },
+  {
+    "codigo": "STR",
+    "nombre": "Estrategia",
+    "descripcion": "Juegos de táctica, gestión de recursos y control de mapas en tiempo real o por turnos."
+  },
+  {
+    "codigo": "ACT",
+    "nombre": "Acción y Aventura",
+    "descripcion": "Juegos con combates dinámicos, exploración de mapas y secuencias cinemáticas."
+  },
+  {
+    "codigo": "PLT",
+    "nombre": "Plataformas e Indie",
+    "descripcion": "Juegos de precisión, exploración metroidvania y mecánicas artísticas independientes."
+  }
+]
