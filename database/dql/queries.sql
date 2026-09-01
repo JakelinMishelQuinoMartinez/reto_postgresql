@@ -26,3 +26,13 @@ INNER JOIN (
 WHERE j.precio > avg_cat.promedio_categoria
 ORDER BY j.precio DESC
 LIMIT 10;
+
+-- AUDITA
+-- =================================================
+SELECT 
+    c.categoria_id,
+    c.nombre AS nombre_categoria, 
+    COUNT(j.juego_id) AS total_juegos
+FROM categorias c
+LEFT JOIN juegos j ON c.categoria_id = j.categoria_id
+GROUP BY c.categoria_id, c.nombre;
