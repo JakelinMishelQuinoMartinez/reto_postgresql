@@ -16,49 +16,38 @@ reto_postgresql/
 │   └── dql/
 │       └── queries.sql       # Consultas de comparación y auditoría
 ├── docs/
+│   ├── evidencias/           # Capturas de ejecución de la solución
+│   │   ├── categorias.png
+│   │   ├── consulta1-1.png
+│   │   ├── consulta1-2.png
+│   │   ├── consulta2.png
+│   │   └── juegos.png
 │   ├── categorias.json       # Datos fuente de categorías
 │   └── juegos.xml            # Datos fuente de videojuegos
-└── README.md                 # Documentación del proyecto
+├── requirements.md           # Requerimientos del reto
+└── README.md                 # Este archivo
+
 ```
 
-# Resumen del Proyecto
-## Diseño de Esquema (DDL): 
-Creación de las tablas categorias y juegos con sus respectivas llaves primarias, foráneas y restricciones únicas (schema.sql).
+---
 
-## Carga de Datos ETL (DML): 
-Importación de categorias.json mediante funciones JSONB y de juegos.xml usando XMLTABLE hacia las tablas relacionales (inserts.sql).
+## Resumen del Proyecto
 
-## Consultas de Análisis (DQL): 
-Ejecución de filtros avanzados para obtener juegos por encima del promedio general y por categoría, así como conteos de auditoría (queries.sql).
+1. **Diseño de Esquema (DDL):** Creación de las tablas `categorias` y `juegos` con sus respectivas llaves primarias, foráneas y restricciones únicas (`schema.sql`).
+2. **Carga de Datos ETL (DML):** Importación de `categorias.json` mediante funciones JSONB y de `juegos.xml` usando `XMLTABLE` hacia las tablas relacionales (`inserts.sql`).
+3. **Consultas de Análisis (DQL):** Ejecución de filtros avanzados para obtener juegos por encima del promedio general y por categoría, así como conteos de auditoría (`queries.sql`).
 
-## Requerimientos del Reto Importar JSON: 
-Cargar el archivo categorias.json en la base de datos (4 categorías importadas).
+---
 
-## Importar XML: 
-Cargar el archivo juegos.xml en la base de datos (20 juegos importados).
+## Evidencias de Ejecución
 
-# Comparación:
+Las evidencias del correcto funcionamiento se encuentran en la carpeta `docs/evidencias/`:
 
-Obtener los 8 juegos cuyo precio se encuentra por encima del promedio global.
+* **Datos cargados a la tabla categorias (DML):** ![alt text](docs/evidences/categorias.png)
+* **Datos cargados a la tabla juegos (DML):** ![alt text](docs/evidences/juegos.png)
+* **Juegos sobre el Promedio General:** ![alt text](docs/evidences/consulta1-1.png)
+* **Juegos sobre el Promedio por Categoría:** ![alt text](docs/evidences/consulta1-2.png)
+* **Conteo de Auditoría por Categoría:** ![`docs/evidencias/consulta2.png`](docs/evidences/consulta2.png)
 
-Obtener los 10 juegos cuyo precio supera el promedio de su propia categoría.
-
-Auditoría: Contar la cantidad total de juegos por categoría utilizando una combinación LEFT JOIN (validando 5 juegos en cada una de las 4 categorías).
-
-Evidencias de Ejecución
-Las evidencias del correcto funcionamiento se encuentran en la carpeta docs/evidencias/:
-
-Datos cargados a la tabla categorias (DML):
-
-Datos cargados a la tabla juegos (DML):
-
-Juegos sobre el Promedio General:
-
-Juegos sobre el Promedio por Categoría:
-
-Conteo de Auditoría por Categoría:
-
-Autores
-Stefani Sánchez
-
-Jakelin Quino
+## Autores
+Stefani Sánchez y Jakelin Quino
